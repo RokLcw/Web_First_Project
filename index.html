@@ -20,7 +20,7 @@
             </div>
             <div class="navbar__menu">
                 <ul class="navbar__menu">
-                    <li class="navbar__menu__item">Home</li>
+                    <li class="navbar__menu__item active">Home</li>
                     <li class="navbar__menu__item">About</li>
                     <li class="navbar__menu__item">Skills</li>
                     <li class="navbar__menu__item">My work</li>
@@ -29,14 +29,14 @@
                 </ul>
             </div>
         </nav>
-        <section class="home">
-            <img src="./img/profile.png" alt="RokLcw profile photo">
+        <section id="home">
+            <img class="home__avatar" src="./img/profile.png" alt="RokLcw profile photo">
             <h1 class="home__title">Hello, <br>I'm RokLcw</h1>
             <h2 class="home__description">Information Security</h2>
             <button class="home__contact">Conatct Me</button>
         </section>
         <!-- about -->
-        <section id="about">
+        <section id="about" class="section section__container">
             <h1>About me</h1>
             <p>
                 순천향대학교 정보보호학과 재학중
@@ -46,115 +46,125 @@
                     <div class="major__icon">
                         <i class="fab fa-html5"></i>
                     </div>
-                    <div class="major__title">Front-end</div>
-                    <div class="major__description">
+                    <h2 class="major__title">Front-end</h2>
+                    <dh3iv class="major__description">
                         HTML, CSS, JavaScript
-                    </div>
+                    </h3>
                 </div>
                 <div class="major">
                     <div class="major__icon">
                         <i class="fas fa-search"></i>
                     </div>
-                    <div class="major__title">Reversing</div>
-                    <div class="major__description">
+                    <h2 class="major__title">Reversing</h2>
+                    <h3 class="major__description">
                         Assembly language
-                    </div>
+                    </h3>
                 </div>
                 <div class="major">
                     <div class="major__icon">
                         <i class="fab fa-python"></i>
                     </div>
-                    <div class="major__title">python</div>
-                    <div class="major__description">
+                    <h2 class="major__title">python</h2>
+                    <h3 class="major__description">
                         deep learning
-                    </div>
+                    </h3>
                 </div>
             </div>
             <div class="about__jobs">
                 <div class="job">
                     <img src="./img/jobs/SCH.jpg" class="job__logo">
-                    <p class="job__name">순천향대학교 학부생</p>
-                    <p class="job_period">2019 - Until now</p>
+                    <div class="job__descripton">
+                        <p class="job__name">순천향대학교 학부생</p>
+                        <p class="job__period">2019 - Until now</p>
+                    </div>
                 </div>
                 <div class="job">
                     <img src="./img/jobs/SecurityFirst.png" class="job__logo">
-                    <p class="job__name">SecurityFirst</p>
-                    <p class="job_period">2019 - Until now</p>
+                    <div class="job__descripton">
+                        <p class="job__name">SecurityFirst</p>
+                        <p class="job__period">2019 - Until now</p>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- skills -->
-        <section id="skills">
-            <h1>Skills</h1>
-            <h2>Skills & Attributes</h2>
-            <p>
-                컴퓨터 공학에 대한 전반적인 지식을 가지고 있음.
-            </p>
-            <div class="skillset">
-                <div class="skillset__left">
-                    <h3 class="skillset__title">Skills</h3>
-                    <div class="skill">
-                        <div class="skill__descripton">
-                            <span>HTML</span>
-                            <span>99%</span>
+        <section id="skills" class="section">
+            <div class="section__container">
+                <h1>Skills</h1>
+                <h2>Skills & Attributes</h2>
+                <p>
+                    컴퓨터 공학에 대한 전반적인 지식을 가지고 있음.
+                    asdfasdfasdfasdfasdasdfasdfasdfasdfasdasdfasdfa
+                    sdfasdfasdasdfasdfasdfasdfasdasdfasdfasdfasdfasdasd
+                    fasdfasdfasdfasdasdfasdfasdfasdfasdasdfasdfasdfasdfas
+                    dasdfasdfasdfasdfasdasdfasdfasdfasdfasdasdfasdfasdfasdfasdasdfasdfasdfasdfasdasdfasdfasdfasdfasd
+                </p>
+                <div class="skillset">
+                    <div class="skillset__left">
+                        <h3 class="skillset__title">Skills</h3>
+                        <div class="skill">
+                            <div class="skill__descripton">
+                                <span>HTML</span>
+                                <span>99%</span>
+                            </div>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill_value"></div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill__descripton">
+                                <span>CSS</span>
+                                <span>90%</span>
+                            </div>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill_value"></div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill__descripton">
+                                <span>JavaScript</span>
+                                <span>78%</span>
+                            </div>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill_value"></div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill__descripton">
+                                <span>Reversing</span>
+                                <span>70%</span>
+                            </div>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill_value"></div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill__descripton">
+                                <span>Python</span>
+                                <span>60%</span>
+                            </div>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill_value"></div>
                         </div>
                     </div>
-                    <div class="skill__bar">
-                        <div class="skill_value"></div>
-                    </div>
-                    <div class="skill">
-                        <div class="skill__descripton">
-                            <span>CSS</span>
-                            <span>90%</span>
+                    <div class="skillset__right">
+                        <div class="tools">
+                            <h3 class="skillset__title">Tools</h3>
+                            <ul class="tools__list">
+                                <li><span>Visual Studio Code</span></li>
+                                <li><span>Visual Studio</span></li>
+                                <li><span>x64dbg</span></li>
+                                <li><span>IDA</span></li>
+                                <li><span>Ghidra</span></li>
+                            </ul>
                         </div>
-                    </div>
-                    <div class="skill__bar">
-                        <div class="skill_value"></div>
-                    </div>
-                    <div class="skill">
-                        <div class="skill__descripton">
-                            <span>JavaScript</span>
-                            <span>78%</span>
+                        <div class="etc">
+                            <h3 class="skillset__title">Etc</h3>
+                            <ul class="etc__list">
+                                <li><span>Git</span></li>
+                            </ul>
                         </div>
-                    </div>
-                    <div class="skill__bar">
-                        <div class="skill_value"></div>
-                    </div>
-                    <div class="skill">
-                        <div class="skill__descripton">
-                            <span>Reversing</span>
-                            <span>70%</span>
-                        </div>
-                    </div>
-                    <div class="skill__bar">
-                        <div class="skill_value"></div>
-                    </div>
-                    <div class="skill">
-                        <div class="skill__descripton">
-                            <span>Python</span>
-                            <span>60%</span>
-                        </div>
-                    </div>
-                    <div class="skill__bar">
-                        <div class="skill_value"></div>
-                    </div>
-                </div>
-                <div class="skillset__right">
-                    <div class="tools">
-                        <h3 class="skillset__title">Tools</h3>
-                        <ul class="tools__list">
-                            <li><span>Visual Studio Code</span></li>
-                            <li><span>Visual Studio</span></li>
-                            <li><span>x64dbg</span></li>
-                            <li><span>IDA</span></li>
-                            <li><span>Ghidra</span></li>
-                        </ul>
-                    </div>
-                    <div class="etc">
-                        <h3 class="skillset__title">Etc</h3>
-                        <ul class="etc__list">
-                            <li><span>Git</span></li>
-                        </ul>
                     </div>
                 </div>
             </div>
